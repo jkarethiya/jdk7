@@ -5,20 +5,9 @@
  */
 package com.jk.apache.commons.csv;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVParser;
-import org.apache.commons.csv.CSVRecord;
-
 public class CSVParserDemo {
-
-	public static void main(String[] args) throws IOException {
+/*
+ *	public static void main(String[] args) throws IOException {
 		List<Country> list1 = readCSV();
 		
 		//print(list1);
@@ -75,37 +64,7 @@ public class CSVParserDemo {
 	}
 
 
-	private static class Country {
-		
-		public Country(String name, String capital, String currency) {
-			super();
-			this.name = name;
-			this.capital = capital;
-			this.currency = currency;
-		}
-		
-		/**
-		 * @return the name
-		 */
-		public String getName() {
-			return name;
-		}
-		/**
-		 * @return the capital
-		 */
-		public String getCapital() {
-			return capital;
-		}
-		/**
-		 * @return the currency
-		 */
-		public String getCurrency() {
-			return currency;
-		}
-		
-		private String name; 
-		private String capital; 
-		private String currency;	
-	}
+
+	*/
 }
 
