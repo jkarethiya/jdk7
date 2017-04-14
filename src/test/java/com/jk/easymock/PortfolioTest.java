@@ -31,5 +31,7 @@ public class PortfolioTest {
 		portfolio.addStock(ebayStock);
 
 		Assert.assertEquals((Double) 200.00, portfolio.getTotalValue());
+		
+		EasyMock.verify(stockMarket);
 	}
 }

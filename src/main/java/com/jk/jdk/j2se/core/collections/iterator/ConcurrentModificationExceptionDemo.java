@@ -13,7 +13,7 @@ import java.util.ListIterator;
  *
  * @author ic034480
  */
-public class ConcurrentModificationExceptionTest {
+public class ConcurrentModificationExceptionDemo {
     public static void main(String args[])
     {
         System.out.println("ListIterator: Adding data from iterator as well as from arraylist while iterating");

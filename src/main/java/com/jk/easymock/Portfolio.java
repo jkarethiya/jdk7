@@ -9,7 +9,7 @@ import com.jk.jdk.core.bean.StockMarket;
 public class Portfolio {
 	private String name;
 	private StockMarket stockMarket;
-	private List<Stock> stocks = new ArrayList<Stock>();
+	private List<Stock> stocks = new ArrayList<>();
 
 	/*
 	 * this method gets the market value for each stock, sums it up and returns
