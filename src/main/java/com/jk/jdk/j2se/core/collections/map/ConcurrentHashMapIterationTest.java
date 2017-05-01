@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class ConcurrentHashMapIterationTest {
 
 	public static void main(String[] args) {
-		Map<String, Integer> map = new ConcurrentHashMap<String, Integer>(); 
+		Map<String, Integer> map = new ConcurrentHashMap<String, Integer>(2); 
 		
 		map.put("Kindle", 99); 
 		map.put("Samsung tablet", 200); 
