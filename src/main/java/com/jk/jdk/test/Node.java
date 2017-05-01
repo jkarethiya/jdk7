@@ -1,8 +1,8 @@
 package com.jk.jdk.test;
-public class Node {
+public class Node<T> {
    public int data;
-   public Node left;
-   public Node right;
+   public Node<T> left;
+   public Node<T> right;
 
    public Node(int data) {
       this.data = data;
